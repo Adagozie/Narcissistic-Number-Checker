@@ -4,8 +4,8 @@ const btn = document.querySelector("#submit");
 
 const displayResult = document.querySelector("#displayResult");
 
-const narcissistic(userinput){
-  const val = userinput;
+function narcissistic(userinput){
+  const val = userinput.value
   //find no of digits|exponent
 
   var num = userinput.toString();
