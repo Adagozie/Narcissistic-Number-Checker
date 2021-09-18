@@ -18,7 +18,6 @@ for(let i=0; i<exponent; i++){
   poweredArray = Number(arrayValue[i])**exponent;
   sum += poweredArray;
 }
-submit.addEventListener("click", determine);
 
 if (sum === userinput){
    displayResult.textContent = `${userinput} is a narcissistic number`;
@@ -29,5 +28,8 @@ else {
    displayResult.style.color = "green";
 }
      }
+
+     submit.addEventListener("click", determine);
+     
  
 
