@@ -4,8 +4,9 @@ const btn = document.querySelector("#submit");
 
 const displayResult = document.querySelector("#displayResult");
 
-function narcissistic(userinput.value){
+function narcissistic(userinput){
   //find no of digits|exponent
+  const inputF = userinput.value;
   var num = userinput.toString();
   var exponent = num.length;
 
@@ -20,11 +21,11 @@ for(let i=0; i<exponent; i++){
 }
 
 if (sum === userinput){
-   displayResult.textContent = `${userinput.value} is a narcissistic number`;
+   displayResult.textContent = `${inputF} is a narcissistic number`;
    displayResult.style.color = "green";
 }
 else {
-   displayResult.textContent = `${userinput.value} is not a narcissistic number`;
+   displayResult.textContent = `${inputF} is not a narcissistic number`;
    displayResult.style.color = "green";
 }
      };
