@@ -1,4 +1,4 @@
-const number = document.querySelector("#userinput"); 
+const userinput.value = document.querySelector("#userinput"); 
 
 const btn = document.querySelector("#submit"); 
 
