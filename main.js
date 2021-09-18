@@ -4,9 +4,11 @@ const btn = document.querySelector("#submit");
 
 const displayResult = document.querySelector("#displayResult");
 
+const inputF = userinput.value;
+
 function narcissistic(userinput){
   //find no of digits|exponent
-  const inputF = userinput.value;
+  
   var num = userinput.toString();
   var exponent = num.length;
 
@@ -14,7 +16,7 @@ function narcissistic(userinput){
 var arrayValue = num.split('');
 
 //Access the arrays using loop
-var poweredArrray, sum = 0;
+var poweredArray, sum = 0;
 for(let i=0; i<exponent; i++){
   poweredArray = Number(arrayValue[i])**exponent;
   sum += poweredArray;
@@ -26,7 +28,7 @@ if (sum === userinput){
 }
 else {
    displayResult.textContent = `${inputF} is not a narcissistic number`;
-   displayResult.style.color = "green";
+   displayResult.style.color = "red";
 }
      };
 
