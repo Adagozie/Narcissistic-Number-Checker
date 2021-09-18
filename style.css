@@ -26,8 +26,9 @@ p{
 				margin:75px;
 }	
 
-#displayResult{
+#displayResult>h2{
 	margin:20px 0px;
+	color: black;
 }
 
 #submit{
