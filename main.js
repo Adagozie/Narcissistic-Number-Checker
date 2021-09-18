@@ -29,7 +29,7 @@ else {
 }
      }
 
-     submit.addEventListener("click", determine);
+     submit.addEventListener("click", narcissistic);
      
  
 
