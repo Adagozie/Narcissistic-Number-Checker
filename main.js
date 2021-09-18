@@ -20,11 +20,11 @@ for(let i=0; i<exponent; i++){
 }
 
 if (sum === userinput){
-   displayResult.textContent = `${userinput} is a narcissistic number`;
+   displayResult.textContent = `${userinput.value} is a narcissistic number`;
    displayResult.style.color = "green";
 }
 else {
-				displayResult.textContent = `${userinput} is not a narcissistic number`;
+				displayResult.textContent = `${userinput.value} is not a narcissistic number`;
    displayResult.style.color = "green";
 }
      }
