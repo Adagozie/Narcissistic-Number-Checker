@@ -1,0 +1,44 @@
+body {
+				background-color:#f4f4f4;
+}
+
+#container{
+				background-color:cyan;
+				border: 10px solid black;
+				height: 400px;
+				width: 750px;
+				margin: auto;
+				text-align:center;
+}
+
+h1{
+				text-transform:uppercase;
+}
+
+p{
+				font-family:sans-serif;
+				font-weight:bold;
+				font-size:24px;				
+}
+
+#input{
+				width: 100px;
+				margin:75px;
+}
+
+h2[data-status="userinput is a narcissistic number"] { color: green; } h2[data-status="userinput is not a narcissistic number"] { color: red; }
+
+
+#submit{
+		background: white;
+		color: black;
+		font-weight:bold;
+		border-radius:12px;
+		padding-left: 15px;	
+		padding-right: 15px;
+		border:0px;
+	 height:36px;
+		text-align:center;
+		text-decoration: blink;
+}
+
