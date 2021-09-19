@@ -24,10 +24,11 @@ p{
 #input{
 				width: 100px;
 				margin:75px;
+}	
+
+#displayResult{
+	margin:20px 0px;
 }
-
-h2[data-status="userinput is a narcissistic number"] { color: green; } h2[data-status="userinput is not a narcissistic number"] { color: red; }
-
 
 #submit{
 		background: white;
@@ -37,7 +38,7 @@ h2[data-status="userinput is a narcissistic number"] { color: green; } h2[data-s
 		padding-left: 15px;	
 		padding-right: 15px;
 		border:0px;
-	 height:36px;
+	    height:36px;
 		text-align:center;
 		text-decoration: blink;
 }
